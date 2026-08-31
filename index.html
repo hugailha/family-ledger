@@ -522,7 +522,6 @@ Resources:`;for(let t of c){if(!t||typeof t!=`string`)throw Error(`@supabase/aut
         <div class="eyebrow" id="tb-eyebrow">WELCOME BACK</div>
         <h1 id="tb-name">—</h1>
       </div>
-      <button class="icon-btn" onclick="openSettings()">&#9881;</button>
     </div>
 
     <!-- HOME -->
@@ -668,6 +667,9 @@ Resources:`;for(let t of c){if(!t||typeof t!=`string`)throw Error(`@supabase/aut
       </button>
       <button class="nav-btn" data-tab="family" id="nav-family" onclick="switchTab('family')" style="display:none;">
         <span class="ic">&#9825;</span>FAMILY
+      </button>
+      <button class="nav-btn" data-tab="settings" onclick="switchTab('settings')">
+        <span class="ic">&#9881;</span>SETTINGS
       </button>
     </div>
   </div>
